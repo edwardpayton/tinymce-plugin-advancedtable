@@ -14,6 +14,13 @@ var tinymce = window.tinymce
 tinymce.PluginManager.add('advancedtable', createAdvancedtablePlugin)
 
 function createAdvancedtablePlugin (editor, url) {
+  editor.addMenuItem('table_select', {
+    text: 'Selection',
+    context: 'table',
+    icon: 'help',
+    prependToContext: false,
+    onclick: tableSelect
+  })
 
 
   function tableSelect (evt) {
