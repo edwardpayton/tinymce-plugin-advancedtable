@@ -22,6 +22,14 @@ function createAdvancedtablePlugin (editor, url) {
     onclick: tableSelect
   })
 
+  editor.addButton('table_select', {
+    name: 'table_select',
+    title: 'Selection',
+    icon: 'preview',
+    context: 'table',
+    hidden: false,
+    onclick: tableSelect
+  })
 
   function tableSelect (evt) {
     var selectedNode = editor.selection.getNode()
