@@ -15,4 +15,10 @@ tinymce.PluginManager.add('advancedtable', createAdvancedtablePlugin)
 
 function createAdvancedtablePlugin (editor, url) {
 
+
+  function tableSelect (evt) {
+    var selectedNode = editor.selection.getNode()
+    var table = $(selectedNode).parents('table')
+    editor.selection.select(table[0])
+  }
 }
