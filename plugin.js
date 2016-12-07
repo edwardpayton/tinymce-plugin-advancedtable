@@ -8,13 +8,11 @@
  * Contributing: http://www.tinymce.com/contributing
  */
 
-/*global tinymce:true */
+var $ = window.jQuery
+var tinymce = window.tinymce
 
-tinymce.PluginManager.add('advancedtable', function(editor) {
+tinymce.PluginManager.add('advancedtable', createAdvancedtablePlugin)
 
-  /**
-   * @TODO
-   * Write your plugin code here
-   */
+function createAdvancedtablePlugin (editor, url) {
 
-});
+}
