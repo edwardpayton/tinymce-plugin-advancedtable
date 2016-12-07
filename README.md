@@ -1,0 +1,3 @@
+# advancedtable
+
+A plugin for tinymce WYSIWYG HTML editor that allow to manage table properties like dimensions, borders, etc... 
