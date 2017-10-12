@@ -1,6 +1,6 @@
 {
   "name": "tinymce-plugin-advancedtable",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A plugin for tinymce WYSIWYG HTML editor that allow to manage table properties like dimensions, borders, etc... ",
   "main": "plugin.js",
   "devDependencies": {
